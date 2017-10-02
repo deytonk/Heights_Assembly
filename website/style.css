@@ -24,5 +24,26 @@ h1 {
 h2 {
   font-family: 'Bellefair', serif;
   color: #ffffff;
-  font-size: 150%;
+  font-size: 200%;
+  margin-top: -115px;
+  margin-left: 300px;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  color: #ffffff;
+  font-size: 250%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Bellefair', serif;
+  color: #333333;
+  font-size: 80%;
+  font-family: 'Arial', sans-serif;
+  font-weight: lighter;
 }
