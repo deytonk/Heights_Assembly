@@ -1,29 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heights Assembly of God</title>
 
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bellefair|Lobster" rel="stylesheet">
-    <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Heights Assembly of God</title>
 
-  </head>
-  <body>
-    <header class="parallax">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bellefair|Lobster" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand active" href="index.html">Heights<span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service Times</a>
+          </li>
+        </ul>
+
+        <ul class="contact d-inline-flex my-4 my-lg-0">
+          <li id="phone">
+            <a href="tel:512-444-0762">(512) 444-0762</a>
+          </li>
+          <li id="email">
+            <a href="mailto:HeightsAG@aol.com"><img src="images/email.png" alt="an email icon"></a>
+          </li>
+          <li id="facebook">
+            <a href="https://www.facebook.com/heightsassemblyofgod/"><img src="images/facebook.png" alt="facebook icon"></a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+    <div class="parallax" id="title">
       <h1>Heights</h1>
       <h2>Assembly of God</h2>
-      <h3>Experiencing the power and presence of Jesus today!</h3>
-    </header>
+      <div id="tagline">
+        <h3>Experiencing the power and presence of Jesus today!</h3>
+      </div>
+    </div>
+  </header>
 
-    <main>
-      <div id="intro">
-        <p>If you are ready to experience the Power of Pentecost, if you want to be a part of the “run the aisles,” “shout down the house,” miracle and deliverance worship services associated with real Pentecost, then this is the place for you. We come from many different backgrounds, cultures, and origins, but we share a common love for God and each other.</p>
+  <main class="container">
+    <div class="row" id="intro">
+      <div class="col-lg-6 col-sm-12">
+        <p>If you are ready to experience the Power of Pentecost, if you want to be a part of the “run the aisles,” “shout down the house,” miracle and deliverance worship services associated with real Pentecost, then this is the place for you. We come from
+          many different backgrounds, cultures, and origins, but we share a common love for God and each other.</p>
         </br>
+        <p>There is a place for YOU in the church family that is Heights Assembly.</p>
+      </div>
+      <div class="col-lg-6 col-sm-12">
         <p>We are a family full of love and warmth.</p>
         <p>We share each other’s joys and bear each other’s burdens.</p>
         <p>We are each members of the family of God.</p>
@@ -34,25 +81,58 @@
         <p>We expect God to speak to us during our worship.</p>
         <p>God is still delivering and healing and supplying!</p>
         <p>Jesus is coming again soon, and this excites us!</p>
-        </br>
-        <p>There is a place for YOU in the church family that is Heights Assembly.</p>
       </div>
-    </main>
+    </div>
 
-    <footer>
+    <div class="row buttons">
+      <div class="col-lg-3">
+        <button>Prayer Request</button>
+      </div>
+      <div class="col-lg-3">
+        <button>Praise Request</button>
+      </div>
+      <div class="col-lg-3">
+        <button>Get Involved</button>
+      </div>
+      <div class="col-lg-3">
+        <button>Donations</button>
+      </div>
+    </div>
 
-    </footer>
+    <div class="row" id="location">
+      <div class="col-sm-4" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7659.45627217377!2d-97.73712855786943!3d30.221118905826955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b47b3ac81f6b%3A0xa46d55ef4d938de1!2s3314+Burleson+Rd%2C+Austin%2C+TX+78741!5e0!3m2!1sen!2sus!4v1508357291250" width="150%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm-4" id="directions">
+        <h4>Directions</h4>
+        <p><span class="bold">From North:</span> </br> Travel SOUTH on IH 35 – Take EXIT 232A OLTORF ST. </br> Turn LEFT onto E. OLTORF ST. – Go 0.3 miles </br> Turn RIGHT onto BURLESON RD. – Go 0.8 miles </br> Heights Assembly is on the right.</p>
+        <p><span class="bold">From South:</span> </br> Travel NORTH on IH 35 – Take the HWY 71/BEN WHITE BLVD E. EXIT </br> Stay on the access road </br> Turn RIGHT onto the access road for HWY71/BEN WHITE BLVD E. to BURLESON RD. </br> Turn LEFT onto BURLESON RD. – Go approximately 1.5 blocks </br> Heights Assembly is on the left.</p>
+        <p><span class="bold">From East:</span> </br> Travel WEST on HWY71/BEN WHITE BLVD – Take WOODWARD ST. EXIT </br> Stay on the access road travelling west bound. </br> Turn RIGHT onto BURLESON RD. – Go approximately 1.5 blocks </br> Heights Assembly is on the left</p>
+        <p><span class="bold">From West:</span> </br> Travel EAST on HWY71/BEN WHITE BLVD – Take WOODWARD ST. EXIT </br> Stay on the access road travelling east bound. </br> Turn LEFT onto BURLESON RD. – Go approximately 1.5 blocks </br> Heights Assembly is on the left</p>
+      </div>
+      <div class="col-sm-4">
+        <!-- embedded blog or facebook post -->
+        <img src="#" alt="placeholder" width="100%">
+      </div>
+    </div>
+    </div>
+  </main>
 
-    <!-- javascript and jquery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+  <footer>
+    <!-- how to make a copywrite? -->
+  </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <!-- javascript and jquery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
